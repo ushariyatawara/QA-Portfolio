@@ -4,10 +4,10 @@
 This document contains sample test cases designed for testing the functionality of Instagram login feature.
 
 ## Definitions
-Precondition: An initial requirement for the test to be executed
-Test Steps: Step-by-step instructions to execute the test case
-Expected Result: The final expected behaviour when a test case is executed
-Priority - High: Critical for functionality | Medium: Important but not critical
+Precondition: An initial requirement for the test to be executed  
+Test Steps: Step-by-step instructions to execute the test case  
+Expected Result: The final expected behaviour when a test case is executed  
+Priority - High: Critical for functionality | Medium: Important but not critical  
 Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not critical
 
 ## TC01 - Valid Login
