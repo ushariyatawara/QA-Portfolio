@@ -4,16 +4,18 @@
 This document consists of high-level test scenarios for validating the functionality of **Instagram Login** feature
 
 ## Functional Test Scenarios
-TC01
+TC01 - Verify login with valid credentials
 
-TC02
+TC02 - Verify login with invalid username/email/phone
 
-TC03
+TC03 - Verify login with invalid password
 
-TC04
+TC04 - Verify login with empty username/email/phone
 
-TC05
+TC05 - Verify login with empty password
 
-TC06
+TC06 - Verify case sensitivity of username
 
-TC07
+TC07 - Verify password reset
+
+TC08 - Verify login with Facebook
