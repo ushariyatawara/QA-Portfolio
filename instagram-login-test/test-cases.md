@@ -69,7 +69,19 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 **Severity:** Major  
 **Status:** NE
 
-## TC05 - Case Sensitivity 
+## TC05 - Empty Password
+**Precondition:** User has an Instagram account  
+**Test Steps:**
+1. Open Instagram 
+2. Type valid username/email/phone number and keep password empty
+3. Click ‘Login’  
+
+**Expected Result:** User sees an error message saying “Please enter password”  
+**Priority:** Medium  
+**Severity:** Minor  
+**Status:** NE
+
+## TC06 - Case Sensitivity 
 **Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
@@ -81,7 +93,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 **Severity:** Minor  
 **Status:** NE
 
-## TC06 - Password Reset 
+## TC07 - Password Reset 
 **Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
@@ -94,7 +106,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 **Severity:** Major  
 **Status:** NE
 
-## TC07 - Login with Facebook 
+## TC08 - Login with Facebook 
 **Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
