@@ -13,10 +13,10 @@ Test Steps: Step-by-step instructions to execute the test case
 Expected Result: The final expected behaviour when a test case is executed 
 
 
-Priority - High: Critical for functionality | Medium: Important but not critical  
+Priority - **High**: Critical for functionality, **Medium**: Important but not critical  
 
 
-Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not critical
+Severity - **Major**: Affects key functionality, **Minor**: Minor UI/UX issues, not critical
 
 ## Notes
 Status of each test case is specified as 'NE' (Not Executed) since this is a sample test case document, which otherwise will be 'Pass'/'Fail' based on the test result
@@ -63,6 +63,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 1. Open Instagram 
 2. Keep username/email/phone number blank and enter valid password 
 3. Click ‘Login’  
+
 **Expected Result:** User sees an error message saying “Username/email/phone number is required"  
 **Priority:** Medium  
 **Severity:** Major  
@@ -74,6 +75,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 1. Open Instagram 
 2. Type username with wrong case 
 3. Click ‘Login’  
+
 **Expected Result:** User sees an error message saying “User not found”  
 **Priority:** Medium  
 **Severity:** Minor  
@@ -86,6 +88,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 2. Click ‘Forgot Password’ 
 3. Enter email 
 4. Click ‘Submit’  
+
 **Expected Result:** User receives a password reset email to the registered email address  
 **Priority:** High  
 **Severity:** Major  
@@ -97,6 +100,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 1. Open Instagram 
 2. Click ‘Login with Facebook’ 
 3. Enter Facebook credentials  
+
 **Expected Result:** User is logged in through Facebook  
 **Priority:** Medium  
 **Severity:** Minor  
