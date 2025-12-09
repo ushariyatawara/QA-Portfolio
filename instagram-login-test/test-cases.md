@@ -10,8 +10,11 @@ Expected Result: The final expected behaviour when a test case is executed
 Priority - High: Critical for functionality | Medium: Important but not critical  
 Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not critical
 
+## Notes
+Status of each test case is specified as 'NE' (Not Executed) since this is a sample test case document, which otherwise will be 'Pass'/'Fail' based on the test result
+
 ## TC01 - Valid Login
-**Precondition:** User has an Instagram account
+**Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
 2. Enter valid username/email/phone number and password 
@@ -22,7 +25,7 @@ Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not cri
 **Status:** NE
 
 ## TC02 - Invalid Username / Email / Phone number
-**Precondition:** User has an Instagram account
+**Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
 2. Enter invalid username/email/phone number and valid password 
@@ -33,7 +36,7 @@ Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not cri
 **Status:** NE
 
 ## TC03 - Invalid Password 
-**Precondition:** User has an Instagram account
+**Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
 2. Enter valid username/email/phone number and invalid password 
@@ -44,7 +47,7 @@ Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not cri
 **Status:** NE
 
 ## TC04 - Empty Username / Email / Phone number  
-**Precondition:** User has an Instagram account
+**Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
 2. Keep username/email/phone number blank and enter valid password 
@@ -55,7 +58,7 @@ Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not cri
 **Status:** NE
 
 ## TC05 - Case Sensitivity 
-**Precondition:** User has an Instagram account
+**Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
 2. Type username with wrong case 
@@ -66,7 +69,7 @@ Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not cri
 **Status:** NE
 
 ## TC06 - Password Reset 
-**Precondition:** User has an Instagram account
+**Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
 2. Click ‘Forgot Password’ 
@@ -78,7 +81,7 @@ Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not cri
 **Status:** NE
 
 ## TC07 - Login with Facebook 
-**Precondition:** User has an Instagram account
+**Precondition:** User has an Instagram account  
 **Test Steps:**
 1. Open Instagram 
 2. Click ‘Login with Facebook’ 
