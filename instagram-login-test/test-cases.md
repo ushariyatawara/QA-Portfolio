@@ -5,9 +5,17 @@ This document contains sample test cases designed for testing the functionality 
 
 ## Definitions
 Precondition: An initial requirement for the test to be executed  
+
+
 Test Steps: Step-by-step instructions to execute the test case  
-Expected Result: The final expected behaviour when a test case is executed  
+
+
+Expected Result: The final expected behaviour when a test case is executed 
+
+
 Priority - High: Critical for functionality | Medium: Important but not critical  
+
+
 Severity - Major: Affects key functionality | Minor: Minor UI/UX issues, not critical
 
 ## Notes
@@ -19,6 +27,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 1. Open Instagram 
 2. Enter valid username/email/phone number and password 
 3. Click ‘Login’  
+
 **Expected Result:** User is logged in successfully  
 **Priority:** High  
 **Severity:** Major  
@@ -30,6 +39,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 1. Open Instagram 
 2. Enter invalid username/email/phone number and valid password 
 3. Click ‘Login’  
+
 **Expected Result:** User sees an error message saying “User not found”  
 **Priority:** High  
 **Severity:** Major  
@@ -41,6 +51,7 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 1. Open Instagram 
 2. Enter valid username/email/phone number and invalid password 
 3. Click ‘Login’  
+
 **Expected Result:** User sees an error message saying “Your password was incorrect. Please try again”  
 **Priority:** High  
 **Severity:** Major  
@@ -90,4 +101,3 @@ Status of each test case is specified as 'NE' (Not Executed) since this is a sam
 **Priority:** Medium  
 **Severity:** Minor  
 **Status:** NE
-
