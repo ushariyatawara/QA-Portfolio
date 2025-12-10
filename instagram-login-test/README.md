@@ -8,7 +8,6 @@ The purpose of this project is to validate the functionality of the Instagram Lo
 
 | File | Description |
 ----------------------
-| test-scenarios.md |  | 
-| test-cases.md | 
+| test-scenarios.md | 
 
 
